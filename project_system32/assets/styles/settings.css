@@ -1,0 +1,1072 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media all{
+    body {
+        background: linear-gradient(302.7deg, #AE2718 -1.92%, #1A1524 100.93%);
+    }
+
+    /* Header starts*/
+    header a {
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    footer a {
+        color: rgba(255, 255, 255, 1);
+    }
+    
+    header {
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .menu-for-nav {
+        width: 20px;
+        height: 20px;
+        margin-top: 29px;
+        margin-bottom: auto;
+    }
+    
+    #logo-header {
+        width: auto;
+        height: 40px;
+        margin-top: 29px;
+        margin-bottom: auto;
+    }
+    
+    .header-navbar {
+        display: flex;
+        gap: 20px;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .header-navbar .pages {
+        display: flex;
+        padding-left: 0px;
+        gap: 20px;
+        width: 87%;
+        height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        list-style-type: none;
+    }
+    
+    .header-navbar .pages .page {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .header-navbar .pages .page a {
+        width: 100%;
+        height: 16px;
+        color: rgba(255, 255, 255, 1);
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.20000000298023224px;
+        text-decoration: none;
+        align-items: center;
+    }
+    
+    .signup-button {
+        background: linear-gradient(270deg, #B20850 -15.62%, #F85339 116.15%);
+        min-height: 32px;
+        width: 7%;
+        margin-top: 26px;
+        margin-bottom: auto;
+        margin-left: 110px;
+        margin-right: 10px;
+        mix-blend-mode: normal;
+        border-radius: 8px;
+        border: white;
+        color: rgba(255, 255, 255, 1);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+    }
+    
+    .create-button {
+        background: linear-gradient(270deg, #B20850 -15.62%, #F85339 116.15%);
+        min-height: 32px;
+        width: 7%;
+        margin-top: 26px;
+        margin-bottom: auto;
+        margin-left: 110px;
+        margin-right: 10px;
+        mix-blend-mode: normal;
+        border-radius: 8px;
+        border: white;
+        color: rgba(255, 255, 255, 1);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+    }
+    
+    #logoutForm {
+        height: 32px;
+        margin-top: 26px;
+        margin-bottom: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #logoutButton {
+        background: linear-gradient(270deg, #B20850 -15.62%, #F85339 116.15%);
+        height: auto;
+        width: 100%;
+        mix-blend-mode: normal;
+        border-radius: 8px;
+        border: white;
+        color: rgba(255, 255, 255, 1);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        margin: 0%;
+    }
+    
+    .account-logo {
+        margin-top: 29px;
+        margin-bottom: auto;
+    }
+    
+    header .logo-pfp {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Header ends*/
+    /*Home page main starts*/
+    /* Main starts*/
+
+
+
+
+    /*settings-section starts*/
+    #settings-section {
+        position: relative;
+        width: 100%;
+        height: 650px;
+        top: 72px;
+    }
+
+
+    /*Footer starts*/
+    footer {
+        position: relative;
+        background-color: #37383c;
+        border-top: #d6103f solid 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 200px;
+        margin-top: auto;
+    }
+
+    footer .logo-footer {
+        height: 70px;
+        width: auto;
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+
+    footer .navbar {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto;
+        height: auto;
+    }
+
+    footer .footer-navbar {
+        width: auto;
+    }
+
+    footer .pages {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer .pages .page {
+        display: inline;
+        margin-right: 20px;
+        /* Adjust the spacing between list items */
+    }
+
+    footer .pages .page a {
+        width: 100%;
+        height: 16px;
+        color: rgba(255, 255, 255, 1);
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.20000000298023224px;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    footer .social-medias {
+        margin-left: 0;
+        margin-right: 8.2%;
+    }
+
+    footer .social-media-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer .social-media-list .single-media {
+        margin-right: 10px;
+        /* Adjust the spacing between list items */
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    footer .social-media-list #faceli {
+        padding-left: 5px;
+    }
+
+    footer .social-media-list .single-media img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer .social-media-list .single-media #facebook {
+        width: 14px;
+        height: 24px;
+    }
+    /*Footer ends*/
+
+
+
+
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        max-width: 1000px; /* Maximum width */
+        background: white;
+        border-radius: 22px;
+        padding: 0 10px 30px;
+    }
+
+    .center form {
+        width: 100%;
+        padding: 0 70px;
+        box-sizing: border-box;
+
+    }
+
+    .button [type="submit"] {
+        position: relative;
+        display:block;
+        width: 100%;
+        height: 60px;
+        border: transparent;
+        margin-top: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 11px;
+        background: #EF153C;
+        color: #fbe9e9;
+        cursor: pointer;
+    }
+
+
+    .button [type="submit"]:hover {
+        border: #AE2718;
+
+        transition: .1s;
+        box-shadow: 0 0 20px #e3ada4;
+    }
+
+    ::selection {
+        background: #6d50e2;
+        color: #fff;
+    }
+
+    .settings-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .settings-content .list {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-right: 20px;
+        position: relative;
+    }
+
+    .settings-content .list label {
+        height: 60px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 60px;
+        cursor: pointer;
+        padding-left: 25px;
+        transition: all 0.5s ease;
+        color: #333;
+        z-index: 12;
+    }
+
+    #home:checked~.list label.home,
+    #blog:checked~.list label.blog
+    {
+        color: #fff;
+    }
+
+    .settings-content .list label:hover {
+        color: #6d50e2;
+    }
+
+    .settings-content .slider {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 60px;
+        width: 100%;
+        border-radius: 12px;
+        background: #6d50e2;
+        transition: all 0.4s ease;
+    }
+
+    #home:checked~.list .slider {
+        top: 0;
+    }
+
+    #blog:checked~.list .slider {
+        top: 60px;
+    }
+
+    .settings-content .text-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .settings-content .text {
+        display: none;
+    }
+
+    .settings-content .text .title {
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    .settings-content .text p {
+        text-align: justify;
+    }
+
+    .settings-content .text-content .home {
+        display: block;
+    }
+
+    #home:checked~.text-content .home,
+    #blog:checked~.text-content .blog {
+        display: block;
+    }
+
+    #blog:checked~.text-content .home {
+        display: none;
+    }
+
+    .settings-content input {
+        display: none;
+    }
+
+
+
+
+
+
+
+    .text-content #current {
+        position: relative;
+        display: inline;
+        margin-right: 10px;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid #939393;
+        width: 50%;
+    }
+
+    .text-content #new {
+        position: relative;
+        display: inline;
+        margin-right: 10px;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: 2px solid #939393;
+        width: 50%;
+    }
+
+    .settings-content label{
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .menu-for-nav {
+        display: none;
+    }
+
+    .header-navbar {
+        position: absolute;
+        left: 17%;
+        right: auto;
+        top: 0;
+        width: 50%;
+    }
+
+    #image-home {
+        margin-bottom: auto;
+        margin-top: 2%;
+    }
+
+    #logo-header {
+        position: static;
+        height: 40px;
+        width: auto;
+        margin-left: 1%;
+        margin-right: auto;
+    }
+
+    .create-button {
+        width: 7%;
+        max-width: 95px;
+        margin-left: 40%;
+    }
+
+    #logoutForm {
+        width: 7%;
+        max-width: 95px;
+    }
+
+    #logoutButton {
+        width: 100%;
+        max-width: 95px;
+    }
+
+    .signup-button {
+        margin-left: auto;
+        width: 7%;
+        max-width: 95px;
+    }
+
+    .account-logo {
+        margin-right: 1%;
+    }
+}
+
+@media screen and  (min-width: 1200px) and (max-width: 1440px) {
+    
+    .menu-for-nav {
+        display: none;
+    }
+
+    .header-navbar {
+        position: absolute;
+        left: 17%;
+        right: auto;
+        top: 0;
+        width: 50%;
+    }
+
+    #logo-header {
+        position: static;
+        height: 40px;
+        width: auto;
+        margin-left: 1%;
+        margin-right: auto;
+    }
+
+    .create-button {
+        min-width: 90px;
+        height: 35px;
+        margin-left: 69%;
+    }
+
+    #logoutForm {
+        min-width: 90px;
+        height: 35px;
+    }
+
+    #logoutButton {
+        min-width: 90px;
+        height: 35px;
+    }
+
+    .signup-button {
+        margin-left: auto;
+        width: 8%;
+    }
+
+}
+
+@media (min-width:980px) and (max-width:1200px) {
+    
+    header {
+        overflow: hidden;
+    }
+
+    .menu-for-nav {
+        display: none;
+    }
+
+    .header-navbar {
+        position: absolute;
+        left: 17%;
+        right: auto;
+        top: 0;
+        width: 50%;
+    }
+
+    .search-container {
+        margin-top: 17%;
+        width: 70%;
+        height: 40px;
+        left: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #searchbar_itslef {
+        width: 100%;
+    }
+
+    #image-home {
+        margin-bottom: auto;
+        margin-top: 2.4%;
+    }
+
+    #logo-header {
+        position: static;
+        height: 40px;
+        width: auto;
+        margin-left: 1%;
+        margin-right: auto;
+    }
+
+    .signup-button {
+        position: static;
+        min-width: 90px;
+        height: 35px;
+        margin-left: 67%;
+    }
+
+    .create-button {
+        min-width: 90px;
+        height: 35px;
+        margin-left: 66%;
+    }
+
+    #logoutForm {
+        min-width: 90px;
+        height: 35px;
+    }
+
+    #logoutButton {
+        min-width: 90px;
+        height: 35px;
+    }
+    
+
+    .account-logo {
+        margin-right: 1%;
+    }
+}
+
+@media (min-width: 767px) and (max-width:980px) {
+
+    /* Header starts*/
+    header {
+        display: flex;
+        overflow: hidden;
+    }
+
+    .menu-for-nav {
+        display: none;
+    }
+
+    .header-navbar {
+        position: absolute;
+        left: 20%;
+        right: auto;
+        top: 0;
+        width: 50%;
+    }
+
+    #image-home {
+        margin-bottom: auto;
+        margin-top: 3%;
+        margin-right: auto;
+    }
+
+    #logo-header {
+        position: static;
+        height: 40px;
+        width: auto;
+        margin-left: 1%;
+        margin-right: auto;
+    }
+
+    .signup-button {
+        position: static;
+        min-width: 90px;
+        height: 35px;
+        margin-left: 63.1%;
+    }
+
+    .create-button {
+        position: static;
+        min-width: 90px;
+        height: 35px;
+        margin-left: 55%;
+    }
+
+    #logoutForm {
+        min-width: 90px;
+        height: 35px;
+    }
+
+    #logoutButton {
+        min-width: 90px;
+        height: 35px;
+    }
+
+    .account-logo {
+        position: static;
+        margin-right: 1%;
+    }
+    /* Header ends*/
+
+    .center form{
+        padding: 0 10px;
+        
+    }
+
+    .settings-content .text-content {
+        width: 70%;
+        height: 100%;
+    }
+
+    .text-content #current {
+        position: relative;
+        display: inline;
+        margin-right: 10px;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid #939393;
+        width: 100%;
+    }
+    
+    .text-content #new {
+        position: relative;
+        display: inline;
+        margin-right: 10px;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 0px;
+        border-radius: 10px;
+        border: 2px solid #939393;
+        width: 100%;
+    }
+
+    .settings-content label{
+     font-size: 15px;
+
+    }
+
+    .settings-content .text .title {
+
+        margin-left: 5%;
+
+    }
+
+    .settings-content .list label {
+        font-size: 10px;
+
+    }
+
+    .button [type="submit"] {
+
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    header {
+        display: flex;
+        padding-bottom: 10%;
+        overflow: hidden;
+    }
+
+    .menu-for-nav {
+        margin-left: 1%;
+    }
+
+    .header-navbar {
+        display: none;
+        flex-direction: column;
+        background: rgba(23, 23, 23, 1);
+        padding: 10px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 35%;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .header-navbar.open {
+        display: block;
+    }
+
+    .header-navbar .pages {
+        display: block;
+        /* Change to block */
+        padding-left: 0px;
+        list-style-type: none;
+        left: 0;
+    }
+
+    .header-navbar .pages .page {
+        padding: 0;
+        /* Remove padding */
+        width: 100%;
+        /* Ensure each list item occupies full width */
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .header-navbar .pages .page a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        display: block;
+        /* Ensure each link occupies full width */
+        /* Add padding to the link instead of list item */
+
+    }
+
+    .signup-button {
+        position: static;
+        width: 18%;
+        height: 35px;
+        margin-left: 29.9%;
+    }
+
+    .create-button {
+        position: static;
+        width: 18%;
+        height: 35px;
+        margin-left: 29.9%;
+    }
+
+    #logoutForm {
+        width: 18%;
+        height: 35px;
+        margin-left: 0%;
+    }
+
+    #logoutButton {
+        width: 100%;
+        height: 35px;
+        margin-left: 0%;
+    }
+
+    #image-home {
+        margin-bottom: 22%;
+        margin-top: 3%;
+        margin-right: auto;
+    }
+
+    #logo-header {
+        position: static;
+        height: 40px;
+        width: auto;
+        margin-left: 1%;
+        margin-right: auto;
+    }
+
+    .account-logo {
+        position: static;
+        margin-right: 1%;
+    }
+
+    /* Header ends*/
+
+    .center form{
+        padding: 0 10px;
+        
+    }
+
+    .settings-content .text-content {
+        width: 70%;
+        height: 100%;
+    }
+
+    .text-content #current {
+        position: relative;
+        display: inline;
+        margin-right: 10px;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid #939393;
+        width: 100%;
+    }
+    
+    .text-content #new {
+        position: relative;
+        display: inline;
+        margin-right: 10px;
+        padding: 0 20px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 0px;
+        border-radius: 10px;
+        border: 2px solid #939393;
+        width: 100%;
+    }
+
+    .settings-content label{
+     font-size: 15px;
+
+    }
+
+    .settings-content .text .title {
+
+        margin-left: 5%;
+
+    }
+
+    .settings-content .list label {
+        font-size: 10px;
+
+    }
+
+    .button [type="submit"] {
+
+        font-size: 14px;
+    }
+    
+    /*Footer starts*/
+
+    footer .logo-footer {
+        margin-left: 0%;
+    }
+
+    footer .navbar {
+        margin-left: 0%;
+    }
+
+    /*footer .navbar .footer-navbar {
+        height: auto;
+    }
+
+    footer .navbar .footer-navbar .pages {
+        height: auto;
+    }*/
+
+    footer .footer-navbar .pages .page {
+        display: list-item;
+        margin-right: 0;
+        margin-top: 35%;
+        margin-bottom: 35%;
+    }
+
+    footer .social-medias {
+        margin-right: 5%;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+
+    header {
+        display: flex;
+        padding-bottom: 10%;
+        overflow: hidden;
+    }
+
+    .menu-for-nav {
+        margin-left: 1%;
+    }
+
+    .header-navbar {
+        display: none;
+        flex-direction: column;
+        background: rgba(23, 23, 23, 1);
+        padding: 10px;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 35%;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .header-navbar.open {
+        display: block;
+    }
+
+    .header-navbar .pages {
+        display: block;
+        /* Change to block */
+        padding-left: 0px;
+        list-style-type: none;
+        left: 0;
+    }
+
+    .header-navbar .pages .page {
+        padding: 0;
+        /* Remove padding */
+        width: 100%;
+        /* Ensure each list item occupies full width */
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .header-navbar .pages .page a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        display: block;
+        /* Ensure each link occupies full width */
+        /* Add padding to the link instead of list item */
+
+    }
+
+    .signup-button {
+        position: static;
+        width: 20%;
+        height: 35px;
+        margin-left: 17%;
+    }
+
+    .create-button {
+        position: static;
+        width: 20%;
+        height: 35px;
+        margin-left: 14.8%;
+    }
+
+    #logoutForm {
+        width: 20%;
+        height: 35px;
+        margin-left: 0%;
+    }
+
+    #logoutButton {
+        width: 100%;
+        height: 35px;
+    }
+
+    #image-home {
+        margin-bottom: auto;
+        margin-top: 7%;
+    }
+
+    #logo-header {
+        position: static;
+        height: 40px;
+        width: auto;
+        margin-left: 1%;
+        margin-right: auto;
+    }
+
+    .account-logo {
+        position: static;
+        margin-right: 1%;
+    }
+
+    /* Header ends*/
+
+    .text-content #current {
+        
+        width: 70%;
+    }
+    
+    .text-content #new {
+       
+        width: 70%;
+    }
+
+    .button [type="submit"] {
+        position: relative;
+        display:block;
+        width: 100%;
+        height: 40px;
+        margin-top: 100px;
+        font-size: 10px;    
+    }
+    
+    /*Footer starts*/
+
+    footer .logo-footer {
+        margin-left: 0%;
+    }
+
+    footer .navbar {
+        margin-left: 0%;
+    }
+
+    /*footer .navbar .footer-navbar {
+        height: auto;
+    }
+
+    footer .navbar .footer-navbar .pages {
+        height: auto;
+    }*/
+
+    footer .footer-navbar .pages .page {
+        display: list-item;
+        margin-right: 0;
+        margin-top: 40%;
+        margin-bottom: 40%;
+    }
+
+    footer .social-medias {
+        margin-right: 2%;
+    }
+}
